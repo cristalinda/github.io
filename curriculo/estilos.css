@@ -1,0 +1,11 @@
+
+header p{
+    color: rgb(240, 245, 255);
+}
+section {
+    margin-bottom: 25px;
+}
+h2 {
+    color: bisque;
+    border-bottom: 1px solid #6200ff
+}
