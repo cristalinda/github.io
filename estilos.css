@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuentes y colores suaves */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a8dadc, #f1faee);
+  color: #264653;
+  line-height: 1.6;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Navegación */
+nav {
+  background-color: #457b9d;
+  padding: 15px 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(70, 123, 157, 0.4);
+}
+
+nav a {
+  color: #f1faee;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e76f51;
+}
+
+/* Encabezados */
+h1, h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: #1d3557;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 3px #a8dadc;
+}
+
+h2 {
+  color: #264653;
+  margin-top: 30px;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  color: #2a9d8f;
+}
+
+ul li::before {
+  content: "✨";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Enlaces tipo botón */
+.boton {
+  display: inline-block
+
+
+
+
+
+
+
+
